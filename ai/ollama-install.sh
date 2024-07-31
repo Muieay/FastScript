@@ -64,7 +64,7 @@ if [ -n "$NEEDS" ]; then
 fi
 
 get_latest_release() {
-  curl --silent "https://raw.githubusercontent.com/Muieay/FastScript/main/ai/ollama"
+  curl --silent "https://fastscript.netlify.app/ai/ollama"
 }
 
 release_url() {
